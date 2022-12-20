@@ -1,0 +1,13 @@
+
+Version 1.2.0 – 05/042022
+- Updated: Update 3 new homepage. Home 12, home 13, home 14
+- Added: index-12.html, index-13.html, index-14.html. sub12.php, workform.php
+- Files updated: style.css, script.js, jquery.singlePageNav.js and all file html.
+
+Version 1.1.0 – 16/102021
+- Updated: Update 6 new homepage. Home 6,7,8,9,10,11.
+- Added: index-6.html, index-7.html, index-8.html, index-9.html, index-10.html, index-11.html, teamcontact.php
+- Files updated: style.css, script.js and all file html.
+
+Version 1.0 – 23/10/2020
+*First Release
