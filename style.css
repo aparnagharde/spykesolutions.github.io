@@ -3593,7 +3593,7 @@ margin-top: 48px;
   -ms-transition: all 0.2s linear;
 }
 .icon-box-s2.s2 .icon-main {
-  color: #7141b1;
+  color:#31c6ee;
   margin-bottom: 30px;
   line-height: 1;
 }
@@ -5810,7 +5810,7 @@ div.swiper-pagination-custom, .swiper-pagination-fraction {
     visibility: inherit;
 }
 .text-primary-light {
-    color: #8E88B8!important;
+    color:#3ecaef!important;
 }
 .page-header {
     background-image: url(images/bg-pheader.jpg);
