@@ -6722,16 +6722,18 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 .about-v5 {
     background-color: #211F3B;
-    background-image: url(images/bg-icon-box1.jpg);
     background-repeat: no-repeat;
     padding: 130px 0 120px 0;
 }
 .overlay-image-about5 {
-    background-image: url(images/bg-icon-box1.jpg);
+background-color: transparent;
+    z-index: 0;
+    background-image: url(images/bg-art-6.png);
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-color: transparent;
-    z-index: 0;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
 }
 .left-v5 {
     margin-right: 70px;
@@ -13559,7 +13561,7 @@ svg:not(:root) {
 }
 .about-counter {
     z-index: 0;
-    padding-top: 0;
+    padding-top: 100px;
     padding-bottom: 110px;
     background-color: #F8F8F8;
 }
