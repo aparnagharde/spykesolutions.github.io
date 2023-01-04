@@ -3940,7 +3940,7 @@ margin-top: 48px;
   overflow: hidden;
   position: relative;
   padding: 43px 30px 65px;
-  background: #262051;
+  background:#161617;
   color: #aeaacb;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -6021,7 +6021,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 .serv-box-2 {
     margin-bottom: 30px;
-    border: 1px solid #46416B;
+    border: 1px solid #ffa5001a;
 }
 .misc-box {
     padding-left: 50px;
