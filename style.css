@@ -1192,7 +1192,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 #site-logo {
   min-width: 145px;
-  padding: 30px 0;
+  padding: 12px 0;
   display: inline-flex;
   vertical-align: middle;
   align-items: center;
@@ -1226,7 +1226,6 @@ a:hover, a:active {
 
 .site-header {
   background: #fff;
-  border-bottom: 1px solid rgba(20, 29, 56, 0.15);
   position: relative;
   z-index: 10;
 }
