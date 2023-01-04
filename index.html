@@ -56,7 +56,7 @@
                                             </li>
                                             <li><a href="#about">About us</a></li>
                                            
-                                            <li class="menu-item-has-children"><a href="#">Our Services</a>
+                                            <li class="menu-item-has-children"><a href="#services">Our Services</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="it-services.html">IT Services</a></li>
                                                     <li><a href="healthcare.html">Healthcare</a></li></ul> 
@@ -152,7 +152,7 @@ We offer experienced healthcare consulting to the life sciences and biotech sect
                     </div>
                 </div>
             </section>
-            <section class="bg-dark-primary">
+            <section class="bg-dark-primary" id="services">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
@@ -357,6 +357,17 @@ We offer experienced healthcare consulting to the life sciences and biotech sect
                 scrollTop: $($.attr(this, 'href')).offset().top
             }, 800);
         });
+		
+    </script>
+		<script>
+        $(document).on('click', 'a[href^="#services"]', function(event) {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 800);
+        });
+		
     </script>
     <!-- <script>
         window.jQuery = window.$ = jQuery;  
