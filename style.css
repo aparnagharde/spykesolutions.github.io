@@ -837,7 +837,7 @@ td {
 .btn-details {
   font-size: 14px;
   font-weight: bold;
-  color: #43baff;
+  color: #ffa500;
 }
 .btn-details i {
   margin-right: 8px;
@@ -1469,7 +1469,7 @@ a:hover, a:active {
   content: "";
   font-size: 7px;
   line-height: 1;
-  color: #c3c7c9;
+  color:#ffa500;
   font-weight: 500;
   transform: rotate(90deg);
 }
