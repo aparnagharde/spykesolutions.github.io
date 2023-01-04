@@ -1,7 +1,4 @@
 @charset "UTF-8";
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
@@ -1394,7 +1391,7 @@ a:hover, a:active {
   transition: all 0.2s ease-out 0s;
 }
 .main-navigation ul > li > a:hover {
-  color: #43baff;
+  color: #fff;
 }
 
 .main-navigation ul > li.menu-item-has-children > a {
@@ -1478,7 +1475,7 @@ a:hover, a:active {
 }
 
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
-  color: #43baff;
+  color:#ffa500;
 }
 
 .main-navigation ul > li li.menu-item-has-children > a:after {
