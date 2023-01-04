@@ -3949,6 +3949,7 @@ margin-top: 48px;
   -ms-transition: all 0.3s linear;
 }
 .serv-box-2 .big-number {
+display: none;	
   position: absolute;
   left: -10px;
   top: 0;
@@ -3970,7 +3971,7 @@ margin-top: 48px;
   width: 188px;
   height: 188px;
   color: #fff;
-  background: #332d5f;
+  background: #ffa50057;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -5795,9 +5796,8 @@ div.swiper-pagination-custom, .swiper-pagination-fraction {
     background-color: #F2F2F2;
 }
 .bg-dark-primary {
-   background-color: rgb(255, 255, 255);
+   background-color: #000;
     background-repeat: no-repeat;
-    background-image: url(images/slide2-home1.jpg);
     background-size: auto;
     /* background-position: 50% 50%; */
     width: 100%;
