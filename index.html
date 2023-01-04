@@ -349,6 +349,15 @@ We offer experienced healthcare consulting to the life sciences and biotech sect
     <!-- REVOLUTION SLIDER SCRIPT FILES -->
  
     <script src="js/royal_preloader.min.js"></script>
+	<script>
+        $(document).on('click', 'a[href^="#about"]', function(event) {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 800);
+        });
+    </script>
     <!-- <script>
         window.jQuery = window.$ = jQuery;  
         (function($) { "use strict";
