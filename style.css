@@ -14253,6 +14253,8 @@ section {
 }
 .over-hidden {
     overflow: hidden;
+	max-width: 1001px;
+    margin: auto;
 }
 @media (max-width: 992px) {
   .sm-pb-60 {
