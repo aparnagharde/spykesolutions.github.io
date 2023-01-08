@@ -10,7 +10,9 @@
 .octf-area-wrap{
 background: #262626!important;
 }
-
+.tp-caption tp-resizeme{
+margin-top: -40px!important;
+}
 html {
   line-height: 1.15;
   /* 1 */
