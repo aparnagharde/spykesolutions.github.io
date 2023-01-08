@@ -2073,7 +2073,7 @@ a:hover, a:active {
   display: none;
 }
 .page-header .breadcrumbs li a {
-  color: #aeaacb;
+  color: #ffa500;
 }
 .page-header .breadcrumbs li a:hover {
   color: #fff;
@@ -15130,7 +15130,7 @@ ul.footer-widget__horizontal-list li {
     line-height: 44px;
     font-weight: 700;
     margin-bottom: 21px;
-    color: #43baff;
+    color: #ffa500;
 }
 
 
