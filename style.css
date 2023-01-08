@@ -10,6 +10,9 @@
 .octf-area-wrap{
 background: #262626!important;
 }
+.tp-parallax-wrap{
+top: 377px!important;
+}
 html {
   line-height: 1.15;
   /* 1 */
