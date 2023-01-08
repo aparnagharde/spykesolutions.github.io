@@ -10,6 +10,11 @@
 .octf-area-wrap{
 background: #262626!important;
 }
+.rev_slider {
+    position: relative;
+    overflow: visible;
+    height: 600px!important;
+}
 .tp-caption{
 margin-top: -40px!important;
 }
