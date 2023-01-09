@@ -2087,7 +2087,7 @@ a:hover, a:active {
   content: "";
   font-family: "FontAwesome";
   font-size: 7px;
-  color: #43baff;
+  color:#ffa500;
   margin: -3px 8px 0;
   display: inline-block;
   vertical-align: middle;
