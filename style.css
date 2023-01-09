@@ -14957,7 +14957,7 @@ ul.footer-widget__horizontal-list li {
     left: 0;
     bottom: 0;
     right: 0;
-    background: #43baff;
+    background:#ffa500;
     transform: perspective(400px) scaleY(0);
     transform-origin: center;
     transition: all 300ms linear;
