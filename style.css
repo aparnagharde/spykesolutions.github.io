@@ -4036,6 +4036,7 @@ display: none;
 }
 .serv-box-2 .content-box h5 {
   line-height: 30px;
+font-size: 23px!important;
   color: #fff;
   margin-bottom: 10px;
   transition: all 0.3s linear;
