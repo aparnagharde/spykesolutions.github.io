@@ -61,7 +61,7 @@
                                            
                                             <li class="menu-item-has-children"><a href="#services">Our Services</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="#it">IT Services</a></li>
+                                                    <li><a class="button" href="#">IT Services</a></li>
                                                     <li><a href="#healthcare">Healthcare</a></li></ul> 
                                             </li>
                                     
@@ -122,7 +122,7 @@
             </div>
         </header>
 	    
-    
+ 
  <div id="content" class="site-content">
             <div id="rev_slider_one_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="mask-showcase" data-source="gallery" style="background:#ffffff;padding:0px;">
                 <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
@@ -477,7 +477,7 @@ We offer experienced healthcare consulting to the life sciences and biotech sect
                         </div>
 						</div>
 						
-						 <div class="row" id="itservices">
+						 <div class="row" class="second" id="itservices">
                         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                             <div class="serv-box-2 s2">
                                 <span class="big-number">05</span>
@@ -647,12 +647,14 @@ We offer experienced healthcare consulting to the life sciences and biotech sect
             }, 800);
         });
 			
-	$("#it").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#itservices").offset().top},
-        'slow');
+
 });	
     </script>
+	    <script>$(".first").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".second").offset().top},
+        'slow');
+});</script>
 	
 
     <!-- <script>
